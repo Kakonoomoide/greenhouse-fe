@@ -7,7 +7,7 @@ export default function AppRoutes() {
     <Routes>
       <Route path="/" element={<Navigate to="/login" replace />} />
 
-      <Route path="/dashboard" element={<Home />} />
+      <Route path="/user" element={<Home />} />
       <Route path="/login" element={<Login />} />
 
       <Route path="*" element={<Navigate to="/login" replace />} />

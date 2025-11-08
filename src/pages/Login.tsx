@@ -27,7 +27,7 @@ export default function Login() {
       // Simpan token / user ke localStorage
       localStorage.setItem("token", data.token);
       alert("Login berhasil!");
-      window.location.href = "/dashboard"; // redirect ke dashboard
+      window.location.href = "/user"; // redirect ke dashboard
     } catch (err: any) {
       setError(err.message);
     } finally {
